@@ -1,0 +1,20 @@
+# Secrets — never commit
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Generated reports (regenerate locally)
+reports/*.html
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Optional: keep demo screenshot PDFs out of repo if large
+# docs/*.pdf
