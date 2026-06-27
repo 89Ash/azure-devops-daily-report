@@ -95,8 +95,6 @@ python main.py --open
 | `ado_client.py` | Azure DevOps REST API client |
 | `query_analyzer.py` | KPIs, health, trends, recommendations |
 | `report_generator.py` | HTML dashboard renderer |
-| `docs/setup-guide.html` | User setup guide |
-| `docs/screenshots/` | Guide illustrations |
 
 ## Scheduling (optional)
 
@@ -106,7 +104,12 @@ A generic macOS launchd template is included: `com.example.ado-daily-report.plis
 
 ## Troubleshooting
 
-See the **Troubleshooting** section in [`docs/setup-guide.html`](docs/setup-guide.html) for common issues (missing config, PAT errors, blank columns, query name mismatches, and Azure field reference names).
+See the **Troubleshooting** 
+- **Missing config** — copy `.env.example` to `.env` and set `ADO_ORG_URL`, `ADO_PAT`, `ADO_PROJECT`
+- **401 Unauthorized** — new PAT with **Work Items (Read)**
+- **No shared queries** — create at least one under Boards → Queries → Shared Queries
+- **Wrong query on load** — `AZURE_QUERY1` must exactly match the Shared Query name
+- **Blank Due Date** — set Due Date on work items in Azure DevOps
 
 ## Why this, not a BI tool?
 
