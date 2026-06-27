@@ -18,7 +18,7 @@ A self-contained HTML leadership dashboard that turns Azure DevOps work items an
 
 **GitHub:** [github.com/89Ash/azure-devops-daily-report](https://github.com/89Ash/azure-devops-daily-report)
 
-**Setup guide:** Download the illustrated setup guide from Topmate —  [https://topmate.io/ashray_shetty89/2175414]
+**Setup guide:** Download the illustrated setup guide from [Topmate](https://topmate.io/ashray_shetty89/2175414)
 
 ## Quick start
 
@@ -98,13 +98,11 @@ python main.py --open
 
 ## Scheduling (optional)
 
-To run reports on a schedule, use any scheduler you prefer (cron, Task Scheduler, GitHub Actions, n8n, etc.) to execute `python main.py` from the project directory with the virtual environment activated.
+To run reports on a schedule, “Use cron, Task Scheduler, or any scheduler to run python main.py daily.”
 
-A generic macOS launchd template is included: `com.example.ado-daily-report.plist.example` — copy and edit paths before use.
 
 ## Troubleshooting
 
-See the **Troubleshooting** 
 - **Missing config** — copy `.env.example` to `.env` and set `ADO_ORG_URL`, `ADO_PAT`, `ADO_PROJECT`
 - **401 Unauthorized** — new PAT with **Work Items (Read)**
 - **No shared queries** — create at least one under Boards → Queries → Shared Queries
