@@ -15,6 +15,3 @@ reports/*.html
 .DS_Store
 .idea/
 .vscode/
-
-# Optional: keep demo screenshot PDFs out of repo if large
-# docs/*.pdf
