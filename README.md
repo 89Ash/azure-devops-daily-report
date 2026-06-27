@@ -18,7 +18,7 @@ A self-contained HTML leadership dashboard that turns Azure DevOps work items an
 
 **GitHub:** [github.com/89Ash/azure-devops-daily-report](https://github.com/89Ash/azure-devops-daily-report)
 
-**Setup guide:** open [`docs/setup-guide.html`](docs/setup-guide.html) in a browser for the full step-by-step walkthrough (with screenshots). The GitHub file preview shows HTML source only — download or clone the repo and open the file locally.
+**Setup guide:** Download the illustrated setup guide from Topmate —  [https://topmate.io/ashray_shetty89/2175414]
 
 ## Quick start
 
